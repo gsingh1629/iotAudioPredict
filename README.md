@@ -2,6 +2,9 @@
 
 Production-oriented audio classification pipeline for IoT Soundbox EOL acoustic verification.
 
+Author: Gurpreet Singh  
+Co-author: Codex 😊
+
 ## Setup
 
 Install system audio dependency on macOS:
