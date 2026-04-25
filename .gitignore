@@ -30,5 +30,6 @@ models/**
 runs/
 logs/
 *.pth
+!models/iot_soundbox_audio_cnn.pth
 *.pt
 *.onnx

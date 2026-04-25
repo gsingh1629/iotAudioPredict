@@ -56,6 +56,9 @@ The best validation checkpoint is saved to:
 models/iot_soundbox_audio_cnn.pth
 ```
 
+The repository includes the current best checkpoint at that path so inference
+can run immediately after setup. Re-training will overwrite it locally.
+
 ## Realtime Inference
 
 List microphone devices:
