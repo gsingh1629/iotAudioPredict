@@ -1,0 +1,34 @@
+__pycache__/
+*.py[cod]
+
+.venv/
+.env
+.DS_Store
+build/
+dist/
+*.egg-info/
+
+# Local audio data. Keep raw folder placeholders and docs in git.
+data/raw/**/*.wav
+data/raw/**/*.WAV
+data/raw/**/*.aif
+data/raw/**/*.aiff
+data/raw/**/*.flac
+data/raw/**/*.mp3
+
+# Generated dataset artifacts.
+data/processed/**
+!data/processed/
+!data/processed/.gitkeep
+
+# Trained model artifacts.
+models/**
+!models/
+!models/.gitkeep
+
+# Local experiment outputs.
+runs/
+logs/
+*.pth
+*.pt
+*.onnx
